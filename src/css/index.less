@@ -1,0 +1,46 @@
+@base: #f1f1f1;
+@font-face {
+  font-family: 'myFont';
+  src: url('./font/xingshu.ttf');
+}
+
+body{
+  background-color: @base;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.mt-20{
+  margin-top: 20px;
+}
+h2 {
+  font-family: 'myFont';
+  text-align: center;
+}
+.flex-box{
+  display: flex;
+  flex-flow: column;
+  padding: 5%;
+  justify-content: center;
+  p{
+    text-align: center;
+  }
+  ul{
+    flex: 1;
+    li{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      img{
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+    }
+  }
+  .btn{
+    text-align: center;
+    margin-top: 20px;
+  }
+}

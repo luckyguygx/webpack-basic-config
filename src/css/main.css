@@ -1,0 +1,12 @@
+h2 {
+  color: #ff4040;
+  text-align: center;
+}
+.useless {
+  color: #ff4040;
+}
+.logo-img {
+  display: block;
+  width: 50%;
+  margin: 20% auto;
+}
